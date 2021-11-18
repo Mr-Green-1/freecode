@@ -32,3 +32,22 @@ let fact = "is cool!";
 fact = "is awesome!";
 console.log(FCC, fact);
 
+const sum = 10 + 10;
+
+const difference = 45 - 33;
+
+const product = 8 * 10;
+
+const quotient = 66 / 33;
+
+let myVar = 87;
+
+let myVar = 87;
+myVar++;
+
+let myVar = 11;
+myVar--;
+
+var myDecimal = 5.7;
+var myDecimal = 0.0003;
+
