@@ -102,6 +102,39 @@ const lastName = "Lovelace";
 firstLetterOfLastName = lastName[0];
 console.log(firstLetterOfLastName);
 
+let myStr = "Jello World";
+
+myStr = "Hello World";
+
+
+
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName[2]; // Change this line
+
+
+
+
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+
+
+
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+
+
+
+
+
 
 
 
