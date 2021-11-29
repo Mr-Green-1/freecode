@@ -134,6 +134,39 @@ const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change th
 
 
 
+function getCount(str) {
+  let vowelsCount = 0;
+
+  for (let i = 0; i < str.length; i++) {
+    switch (str[i]) {
+      case 'a':
+      case 'e':
+      case 'i':
+      case 'o':
+      case 'u':
+        vowelsCount++;
+        break;
+      default:
+        break;
+    }
+  }
+
+  return vowelsCount;
+}
+
+
+
+
+
+var summation = function (num) {
+  let result = 0;
+  for (var i = 1; i <= num; i++) {
+    result += i;
+  }
+
+  return result;
+}
+
 
 
 
