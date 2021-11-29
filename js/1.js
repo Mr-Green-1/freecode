@@ -85,4 +85,27 @@ c /= 11;
 
 const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 
+const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+
+const myStr = "This is the start. " + "This is the end.";
+
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+lastNameLength = lastName.length;
+
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+firstLetterOfLastName = lastName[0];
+console.log(firstLetterOfLastName);
+
+
+
+
+
+
+
 
