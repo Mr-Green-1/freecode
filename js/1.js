@@ -169,6 +169,37 @@ var summation = function (num) {
 
 
 
+function removeChar(str) {
+  return str.slice(1, str.length - 1);
+};
+
+
+
+
+
+
+
+function filter_list(l) {
+  return l.filter(str => typeof str != 'string');
+}
+
+
+
+
+function makeNegative(num) {
+  if (num > 0) {
+    return -num
+  }
+  else if (num < 0) {
+    return num
+  }
+  else {
+    return 0
+  }
+}
+
+
+
 
 
 
