@@ -40,13 +40,6 @@ const product = 8 * 10;
 
 const quotient = 66 / 33;
 
-let myVar = 87;
-
-let myVar = 87;
-myVar++;
-
-let myVar = 11;
-myVar--;
 
 var myDecimal = 5.7;
 var myDecimal = 0.0003;
@@ -83,21 +76,6 @@ a /= 12;
 b /= 4;
 c /= 11;
 
-const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
-
-const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
-
-const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
-
-const myStr = "This is the start. " + "This is the end.";
-
-let lastNameLength = 0;
-const lastName = "Lovelace";
-
-lastNameLength = lastName.length;
-
-let firstLetterOfLastName = "";
-const lastName = "Lovelace";
 
 firstLetterOfLastName = lastName[0];
 console.log(firstLetterOfLastName);
@@ -105,33 +83,6 @@ console.log(firstLetterOfLastName);
 let myStr = "Jello World";
 
 myStr = "Hello World";
-
-
-
-// Setup
-const lastName = "Lovelace";
-
-// Only change code below this line
-const thirdLetterOfLastName = lastName[2]; // Change this line
-
-
-
-
-// Setup
-const lastName = "Lovelace";
-
-// Only change code below this line
-const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
-
-
-
-// Setup
-const lastName = "Lovelace";
-
-// Only change code below this line
-const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
-
-
 
 
 function getCount(str) {
