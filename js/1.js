@@ -41,6 +41,7 @@ const product = 8 * 10;
 const quotient = 66 / 33;
 
 
+
 var myDecimal = 5.7;
 var myDecimal = 0.0003;
 
@@ -149,6 +150,14 @@ function makeNegative(num) {
   }
 }
 
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+var wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
+
+console.log(wordBlanks);
 
 
 
