@@ -159,6 +159,13 @@ var wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAd
 
 console.log(wordBlanks);
 
+function plural(n) {
+  if (n == 1) return false;
+  return true;
+}
+
+greet = hw => "hello world!";
+
 
 
 
