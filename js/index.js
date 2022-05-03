@@ -164,6 +164,8 @@ function plural(n) {
   return true;
 }
 
+areYouPlayingBanjo = name => name + (name.match(/^r/i) ? " plays banjo" : " does not play banjo");
+
 greet = hw => "hello world!";
 
 
