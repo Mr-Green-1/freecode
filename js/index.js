@@ -168,6 +168,15 @@ areYouPlayingBanjo = name => name + (name.match(/^r/i) ? " plays banjo" : " does
 
 greet = hw => "hello world!";
 
+function positiveSum(arr) {
+  const reducer = (accumulator, current) => accumulator + (current > 0 ? current : 0)
+  return arr.reduce(reducer, 0)
+}
+
+basicOp = (operation, value1, value2) => eval(value1 + operation + value2);
+
+
+
 
 
 
