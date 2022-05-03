@@ -175,6 +175,10 @@ function positiveSum(arr) {
 
 basicOp = (operation, value1, value2) => eval(value1 + operation + value2);
 
+function stringToArray(string) {
+  return string.split(' ')
+}
+
 
 
 
