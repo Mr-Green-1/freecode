@@ -216,6 +216,10 @@ const maps = x => x.map(number => number * 2);
 
 invert = array => array.map(x => -x);
 
+function even_or_odd(number) {
+  return (number % 2) ? "Odd" : "Even";
+}
+
 
 
 
