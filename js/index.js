@@ -214,6 +214,8 @@ check = (a, x) => a.includes(x);
 
 const maps = x => x.map(number => number * 2);
 
+invert = array => array.map(x => -x);
+
 
 
 
