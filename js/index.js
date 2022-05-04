@@ -212,6 +212,8 @@ function paperwork(n, m) {
 
 check = (a, x) => a.includes(x);
 
+const maps = x => x.map(number => number * 2);
+
 
 
 
