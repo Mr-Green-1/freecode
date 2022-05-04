@@ -183,6 +183,11 @@ function openOrSenior(data) {
   return data.map(([age, handicap]) => (age > 54 && handicap > 7) ? 'Senior' : 'Open');
 }
 
+function getSum(a, b) {
+  let min = Math.min(a, b),
+    max = Math.max(a, b);
+  return (max - min + 1) * (min + max) / 2;
+}
 
 
 
