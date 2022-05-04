@@ -206,6 +206,13 @@ function boolToWord(bool) {
   return bool ? 'Yes' : 'No'
 }
 
+function paperwork(n, m) {
+  return Math.max(0, n) * Math.max(0, m)
+}
+
+
+
+
 
 
 
