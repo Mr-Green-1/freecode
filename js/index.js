@@ -224,6 +224,10 @@ function booleanToString(b) {
   return String(b);
 }
 
+function digitize(n) {
+  return String(n).split('').reverse().map(Number);
+}
+
 
 
 
