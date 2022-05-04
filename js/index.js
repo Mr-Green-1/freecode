@@ -189,6 +189,14 @@ function getSum(a, b) {
   return (max - min + 1) * (min + max) / 2;
 }
 
+function findNextSquare(sq) {
+  var number = Math.sqrt(sq);
+  if (Math.round(number) === number) {
+    return Math.pow(++number, 2)
+  }
+  return -1;
+}
+
 
 
 
